@@ -1,0 +1,36 @@
+#box{
+
+    background-color: red;
+}
+h1,h2,h3{
+    color:red;
+
+}
+button{
+    background-color:rgb(126, 123, 209);
+    color: white;
+}
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}  
+
+h1{
+    font-weight: bold;
+
+}
+h2{
+    font-weight: bolder;
+}
+h3,h4{
+    font-weight: lighter;
+}
+p{
+    
+    line-height: 50px;
+    text-transform: capitalize;
+}

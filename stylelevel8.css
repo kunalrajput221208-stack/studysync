@@ -1,0 +1,34 @@
+div{
+    height: 500px;
+}
+
+
+
+.counter{
+    background-color:rgb(222, 138, 28);
+    height: 300px;
+    
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    background-size:cover;
+}
+.box{
+    background-color:burlywood;
+    height: 300px;
+    
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    box-shadow: 20px 10px  grey;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 2px;
+    background-size:cover;
+    background-color:rgb(222, 138, 28);
+}

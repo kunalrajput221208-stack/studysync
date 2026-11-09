@@ -1,0 +1,14 @@
+div.nature{
+    height: 500px;
+    width: 500px;
+    background-image: url("Nature-image.html.jpg");
+    background-size: cover;
+    border :2px solid black;
+    
+    
+    right: 50px;
+
+}
+p{
+    border: 2px solid black;
+}

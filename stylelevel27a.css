@@ -1,0 +1,91 @@
+/* Global Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #dddde8;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Main Card Layout */
+.container {
+    width: 900px;
+    background-color: #2b1048; /* Deep purple background matching the design */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+/* Left Section Styling */
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.left h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.left p {
+    font-size: 14px;
+    color: #d1d1d1;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Stats Box (Flex Row) */
+.stats-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.stat-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-item p {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Right Section Styling */
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box img {
+    width: 150%;
+    width: 350px;
+    
+    object-fit: cover;
+}

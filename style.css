@@ -1,0 +1,16 @@
+h1{
+    color:red;
+}
+
+p{
+    color :rgb(187, 27, 27);
+}
+ button{
+    background-color: red;
+    color: white;
+    border: none;
+
+ }
+ body{
+    background-color:aqua;
+ }
